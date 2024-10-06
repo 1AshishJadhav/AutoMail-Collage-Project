@@ -143,8 +143,8 @@ def on_leave(e, entry, placeholder):
         entry.insert(0, placeholder)
 
 # Load Images for Login and Signup
-img_login = PhotoImage(file='/images/login_img.png')
-img_signup = PhotoImage(file='/images/signup_img.png')
+img_login = PhotoImage(file='images/login_img.png')
+img_signup = PhotoImage(file='images/signup_img.png')
 
 # Main Application Panel
 def show_main_content():
